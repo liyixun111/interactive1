@@ -5,13 +5,8 @@ body {
        There are two other ways to do colors in CSS: rgb and common names */
     color: white;
     font-size: 22px;
+    font-family: "Avenir Next",sans-serif;
   }
 img{
    max-width: 50%;
 }
-
-
-
-body {
-   font-family: "Avenir Next",sans-serif;
- }
