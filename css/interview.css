@@ -7,5 +7,12 @@ body {
     font-size: 22px;
   }
 img{
-   max-width: 350px;
+   max-width: 50%;
 }
+
+
+.container {
+   max-width: 650px;
+   /* I put "max-width" rather than "width" because
+      if the screen width is less than 650px, it will shrink accordingly. */
+ }
