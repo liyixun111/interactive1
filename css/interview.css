@@ -6,3 +6,6 @@ body {
     color: white;
     font-size: 22px;
   }
+img{
+   max-width: 350px;
+}
