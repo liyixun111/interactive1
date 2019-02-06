@@ -1,0 +1,8 @@
+
+body {
+    background-color: #587E20;
+    /* The above is called a hex code.
+       There are two other ways to do colors in CSS: rgb and common names */
+    color: white;
+    font-size: 22px;
+  }
