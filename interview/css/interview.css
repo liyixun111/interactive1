@@ -21,3 +21,19 @@ img {
 h4 {
    font-weight: 500;
 }
+
+#toc {
+   position: fixed;
+   top: 10em;
+   right: 1em;
+   background-color: rgb(155, 138, 139);
+   padding: 10px;
+}
+
+#toctitle {
+   font-size: 0.8em;
+}
+
+#toclist {
+   font-size: 0.6em;
+}
