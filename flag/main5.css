@@ -1,0 +1,45 @@
+/* reset styles */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* make the background of the page black */
+body {
+    background: black;
+}
+
+/* flag canvas */
+
+#canvas {
+    background-color: #9c1610;
+    width: 360px;
+    height: 216px;
+    margin: 50px
+}
+
+#strip {
+    width: 20px;
+    height: 216px;
+    margin: 100px;
+    background-color: #fef4a2
+}
+
+#strip2 {
+    width: 260px;
+    height: 20px;
+    background-color: #fef4a2;
+    position: relative;
+    top: -215px;
+}
+
+#triangle {
+    width: 0;
+    height: 0;
+    border-top: 25px solid transparent;
+    border-left: 60px solid #fef4a2;
+    border-bottom: 25px solid transparent;
+    position: relative;
+    top: -250px;
+    left: 260px;
+}

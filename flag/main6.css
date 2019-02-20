@@ -1,0 +1,65 @@
+/* reset styles */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* make the background of the page black */
+body {
+    background: black;
+}
+
+/* flag canvas */
+
+#canvas {
+    background-color: #F40002;
+    width: 360px;
+    height: 216px;
+    margin: 50px
+}
+
+#star {
+    transform: scale(.30, .30);
+}
+
+#star1 {
+    margin: 50px 0;
+    position: relative;
+    display: block;
+    color: yellow;
+    width: 0px;
+    height: 0px;
+    border-right: 100px solid transparent;
+    border-bottom: 70px solid yellow;
+    border-left: 100px solid transparent;
+    transform: rotate(35deg);
+}
+
+#star1:before {
+    border-bottom: 80px solid yellow;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: -45px;
+    left: -65px;
+    display: block;
+    content: '';
+    transform: rotate(-35deg);
+}
+
+#star1:after {
+    position: absolute;
+    display: block;
+    color: yellow;
+    top: 3px;
+    left: -105px;
+    width: 0px;
+    height: 0px;
+    border-right: 100px solid transparent;
+    border-bottom: 70px solid yellow;
+    border-left: 100px solid transparent;
+    transform: rotate(-70deg);
+    content: '';
+}
