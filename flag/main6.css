@@ -18,11 +18,42 @@ body {
     margin: 50px
 }
 
-#star {
+#star1 {
     transform: scale(.30, .30);
+    position: relative;
+    top: 20px;
+    left: -90px;
 }
 
-#star1 {
+#star2 {
+    transform: scale(.10, .10);
+    position: relative;
+    top: -120px;
+    left: -63px;
+}
+
+#star3 {
+    transform: scale(.10, .10);
+    position: relative;
+    top: -210px;
+    left: -60px;
+}
+
+#star4 {
+    transform: scale(.10, .10);
+    position: relative;
+    top: -305px;
+    left: -70px;
+}
+
+#star5 {
+    transform: scale(.10, .10);
+    position: relative;
+    top: -500px;
+    left: -85px;
+}
+
+.star {
     margin: 50px 0;
     position: relative;
     display: block;
@@ -35,7 +66,7 @@ body {
     transform: rotate(35deg);
 }
 
-#star1:before {
+.star:before {
     border-bottom: 80px solid yellow;
     border-left: 30px solid transparent;
     border-right: 30px solid transparent;
@@ -49,7 +80,7 @@ body {
     transform: rotate(-35deg);
 }
 
-#star1:after {
+.star:after {
     position: absolute;
     display: block;
     color: yellow;
