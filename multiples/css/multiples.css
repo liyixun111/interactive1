@@ -13,6 +13,15 @@ body {
     color: white;
 }
 
+img {
+    width: 100%;
+}
+
+.vertical {
+    width: auto;
+    height: 100vh;
+}
+
 #tablet,
 #mobile,
 #print {
@@ -22,7 +31,8 @@ body {
 /* tablet */
 @media (min-width: 670px) and (max-width: 1024px) {
     body {
-        background: grey;
+        background: white;
+        width: auto;
     }
 
     #tablet {
