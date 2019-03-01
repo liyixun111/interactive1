@@ -1,4 +1,61 @@
-body{
-    background-color: #121212;
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    /* background-color: #121212; */
     color: white;
+    /* animation: mymove 5s infinite; */
+
+
+}
+
+#container {
+    margin-left: 25px;
+}
+
+.bg-img {
+    background-color: #121212;
+    animation: mymove 5s infinite;
+    background-image: url("../3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+}
+
+a:hover {
+    color: pink;
+}
+
+img {
+    max-width: 20%;
+}
+
+a:link {
+    color: rgb(207, 0, 0);
+}
+
+#ul {
+    font-family: factoria, serif;
+    font-style: normal;
+    font-weight: 500;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+@keyframes mymove {
+    0% {
+        background-color: rgba(255, 187, 124, 0.753);
+    }
+
+    50% {
+        background-color: rgb(34, 6, 8);
+    }
+
+    100% {
+        background-color: rgba(255, 187, 124, 0.753);
+    }
 }

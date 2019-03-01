@@ -17,6 +17,15 @@ img {
     width: 100%;
 }
 
+#text {
+    display: none;
+    text-align: center;
+}
+
+#picture1:hover~#text {
+    display: block;
+}
+
 .vertical {
     width: auto;
     height: 100vh;
