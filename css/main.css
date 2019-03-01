@@ -27,6 +27,14 @@ body {
     background-blend-mode: multiply;
 }
 
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: purple;
+}
+
 a:hover {
     color: pink;
 }
