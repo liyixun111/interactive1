@@ -1,0 +1,182 @@
+body {
+    padding: o;
+    margin: 0;
+}
+
+.dot {
+    position: relative;
+    left: 100px;
+    height: 5px;
+    width: 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+a.hover {
+    color: rgb(20, 16, 16);
+    display: none;
+    width: 50px;
+    height: 10px;
+}
+
+.box1 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+#main {
+    width: 350px;
+    height: 100px;
+
+    display: flex;
+}
+
+#main div:nth-of-type(1) {
+    flex-grow: 1;
+}
+
+#main div:nth-of-type(2) {
+    flex-grow: 1;
+}
+
+#main div:nth-of-type(3) {
+    flex-grow: 1;
+}
+
+#myBlueDiv {
+    -webkit-animation: mymove 5s infinite;
+    /* Chrome, Safari, Opera */
+    animation: mymove 5s infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+    50% {
+        flex-grow: 8;
+    }
+}
+
+/* Standard syntax */
+@keyframes mymove {
+    50% {
+        flex-grow: 0.2;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#main2 {
+    display: inline;
+    width: 350px;
+    height: 100px;
+    display: flex;
+}
+
+#main2 div:nth-of-type(1) {
+    flex-grow: 1;
+}
+
+#main2 div:nth-of-type(2) {
+    flex-shrink: 8;
+}
+
+#main2 div:nth-of-type(3) {
+    flex-grow: 1;
+}
+
+#myBlueDiv {
+    -webkit-animation: mymove 5s infinite;
+    /* Chrome, Safari, Opera */
+    animation: mymove 5s infinite;
+
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+    50% {
+        flex-shrink: 8;
+    }
+}
+
+/* Standard syntax */
+@keyframes mymove {
+    50% {
+        flex-shrink: 0.2;
+    }
+}
+
+#dotdotdot {
+    display: inline;
+    position: absolute;
+    top: 200px;
+}
+
+
+
+
+
+
+
+#main3 {
+    display: inline;
+    width: 350px;
+    height: 30px;
+    display: flex;
+}
+
+#main3 div:nth-of-type(1) {
+    flex-grow: 1;
+}
+
+#main3 div:nth-of-type(2) {
+    flex-grow: 1;
+}
+
+#main3 div:nth-of-type(3) {
+    flex-grow: 1;
+}
+
+#myBlueDiv {
+    -webkit-animation: mymove 5s infinite;
+    /* Chrome, Safari, Opera */
+    animation: mymove 5s infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+    50% {
+        flex-grow: 8;
+    }
+}
+
+/* Standard syntax */
+@keyframes mymove {
+    50% {
+        flex-grow: 0.2;
+    }
+}
+
+#dotdot {
+    display: inline;
+    position: absolute;
+    top: 2px;
+}
+
+#brown {
+    z-index: 9;
+}
+
+#brown2 {
+    z-index: 9;
+}
