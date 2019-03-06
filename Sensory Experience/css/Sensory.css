@@ -13,12 +13,6 @@ body {
     display: inline-block;
 }
 
-a.hover {
-    color: rgb(20, 16, 16);
-    display: none;
-    width: 50px;
-    height: 10px;
-}
 
 .box1 {
     width: 100px;
@@ -51,17 +45,29 @@ a.hover {
     animation: mymove 5s infinite;
 }
 
+#myBlueDiv1 {
+    -webkit-animation: mymove2 5s infinite;
+    /* Chrome, Safari, Opera */
+    animation: mymove2 5s infinite;
+}
+
 /* Chrome, Safari, Opera */
-@-webkit-keyframes mymove {
+/* @-webkit-keyframes mymove {
     50% {
         flex-grow: 8;
     }
-}
+} */
 
 /* Standard syntax */
 @keyframes mymove {
     50% {
         flex-grow: 0.2;
+    }
+}
+
+@keyframes mymove2 {
+    50% {
+        flex-grow: 10;
     }
 }
 
@@ -84,37 +90,20 @@ a.hover {
 }
 
 #main2 div:nth-of-type(1) {
-    flex-grow: 1;
+    flex-grow: 8;
 }
 
 #main2 div:nth-of-type(2) {
-    flex-shrink: 8;
+    flex-grow: 1.2;
 }
 
 #main2 div:nth-of-type(3) {
-    flex-grow: 1;
+    flex-grow: 8;
 }
 
-#myBlueDiv {
-    -webkit-animation: mymove 5s infinite;
-    /* Chrome, Safari, Opera */
-    animation: mymove 5s infinite;
 
-}
 
-/* Chrome, Safari, Opera */
-@-webkit-keyframes mymove {
-    50% {
-        flex-shrink: 8;
-    }
-}
 
-/* Standard syntax */
-@keyframes mymove {
-    50% {
-        flex-shrink: 0.2;
-    }
-}
 
 #dotdotdot {
     display: inline;
@@ -147,25 +136,6 @@ a.hover {
     flex-grow: 1;
 }
 
-#myBlueDiv {
-    -webkit-animation: mymove 5s infinite;
-    /* Chrome, Safari, Opera */
-    animation: mymove 5s infinite;
-}
-
-/* Chrome, Safari, Opera */
-@-webkit-keyframes mymove {
-    50% {
-        flex-grow: 8;
-    }
-}
-
-/* Standard syntax */
-@keyframes mymove {
-    50% {
-        flex-grow: 0.2;
-    }
-}
 
 #dotdot {
     display: inline;
@@ -178,5 +148,13 @@ a.hover {
 }
 
 #brown2 {
+    z-index: 9;
+}
+
+#brown3 {
+    z-index: 9;
+}
+
+#brown4 {
     z-index: 9;
 }
