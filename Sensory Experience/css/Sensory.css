@@ -3,6 +3,18 @@ body {
     margin: 0;
 }
 
+
+#container {
+    position: relative;
+    /* border: 1px solid white; */
+    top: 270px;
+    left: 525px;
+    width: 350px;
+    height: 274px;
+    background-color: rgb(29, 33, 58);
+    animation: mymove2 5s infinite;
+}
+
 .dot {
     position: relative;
     left: 100px;
@@ -13,17 +25,26 @@ body {
     display: inline-block;
 }
 
+#bg {
+    position: inline;
+    background-color: rgb(29, 33, 58);
+    height: 100vh;
+    animation: mymove2 5s infinite;
+}
 
-.box1 {
-    width: 100px;
-    height: 100px;
-    background-color: red;
+
+#bg-img {
+    background-image: url("../4.jpg");
+    height: 100vh;
+    position: inline;
+    background-attachment: fixed;
+    background-blend-mode: soft-light;
+    animation: mymove2 5s infinite;
 }
 
 #main {
     width: 350px;
     height: 100px;
-
     display: flex;
 }
 
@@ -66,19 +87,20 @@ body {
 }
 
 @keyframes mymove2 {
+    0% {
+        background-color: rgba(255, 187, 124, 0.753);
+    }
+
     50% {
         flex-grow: 10;
+        background-color: rgb(34, 6, 8);
     }
+
+    100% {
+        background-color: rgba(255, 187, 124, 0.753);
+    }
+
 }
-
-
-
-
-
-
-
-
-
 
 
 
@@ -145,16 +167,20 @@ body {
 
 #brown {
     z-index: 9;
+    animation: mymove2 5s infinite;
 }
 
 #brown2 {
     z-index: 9;
+    animation: mymove2 5s infinite;
 }
 
 #brown3 {
     z-index: 9;
+    animation: mymove2 5s infinite;
 }
 
 #brown4 {
     z-index: 9;
+    animation: mymove2 5s infinite;
 }
