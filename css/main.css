@@ -8,8 +8,16 @@ body {
     /* background-color: #121212; */
     color: white;
     /* animation: mymove 5s infinite; */
+    font-family: avenir, serif;
+    font-style: normal;
+    font-weight: 400;
 
+}
 
+.desc {
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
 }
 
 #container {
@@ -19,12 +27,12 @@ body {
 .bg-img {
     background-color: #121212;
     animation: mymove 5s infinite;
-    background-image: url("../3.jpg");
+    background-image: url("../uuu.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 110vh;
     background-attachment: fixed;
-    background-blend-mode: multiply;
+    background-blend-mode: color-burn;
 }
 
 a:link {
@@ -41,6 +49,7 @@ a:hover {
 
 img {
     max-width: 20%;
+    padding: 1%;
 }
 
 a:link {

@@ -23,13 +23,14 @@ h2 {
     top: 10%;
     left: 1%;
     width: 270px;
-    background-color: #504E46;
+    background-color: rgba(80, 78, 70, 0.623);
     padding: 10px;
     font-family: factoria, serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     color: #C3A1A1;
+    text-align: center;
 }
 
 .text {
@@ -65,8 +66,13 @@ h2 {
     margin: 0 auto;
 }
 
+.grid-container div {
+    text-align: center;
+}
+
 .screens {
     max-height: 100%;
+    position: relative;
 }
 
 .bg-img {
@@ -93,3 +99,87 @@ h2 {
         background-color: rgba(221, 198, 67, 0.26);
     }
 }
+
+.img-box {
+    width: 140px;
+    height: 110px;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    margin-left: -70px;
+    /* background-color: blue; */
+    /* background-image: url("../888/1.jpg"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.posR {
+    position: relative;
+}
+
+.grid-item:hover .gridIMG0 {
+
+    background-image: url("../888/1.jpg");
+
+}
+
+.grid-item1:hover .gridIMG1 {
+    background-image: url("../888/2.jpg");
+
+}
+
+.grid-item2:hover .gridIMG2 {
+    background-image: url("../888/3.jpg");
+
+}
+
+.grid-item3:hover .gridIMG3 {
+    background-image: url("../888/4.jpg");
+
+}
+
+.grid-item4:hover .gridIMG4 {
+    background-image: url("../888/5.png");
+
+}
+
+.grid-item5:hover .gridIMG5 {
+    background-image: url("../888/6.jpg");
+
+}
+
+.grid-item6:hover .gridIMG6 {
+    background-image: url("../888/7.jpg");
+
+}
+
+.grid-item7:hover .gridIMG7 {
+    background-image: url("../888/8.jpeg");
+
+}
+
+.grid-item8:hover .gridIMG8 {
+    background-image: url("../888/9.jpg");
+
+}
+
+.grid-item9:hover .gridIMG9 {
+    background-image: url("../888/10.jpg");
+
+}
+
+.grid-item10:hover .gridIMG10 {
+    background-image: url("../888/11.jpg");
+
+}
+
+.grid-item11:hover .gridIMG11 {
+    background-image: url("../888/12.jpg");
+
+}
+
+/* .screen1 {
+    width: 50px;
+    height: 45px;
+    background-color: blue;
+} */
