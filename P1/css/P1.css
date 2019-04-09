@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(218, 115, 115);
+    background-color: rgb(228, 140, 140);
 }
 
 
@@ -18,29 +18,30 @@ h2 {
     margin-top: -70px;
 }
 
+
 .container1 {
-    position: fixed;
-    top: 10%;
-    left: 1%;
-    width: 270px;
-    background-color: rgba(80, 78, 70, 0.623);
+    position: relative;
+    top: 100%;
+    left: 25%;
+    width: 700px;
+    background-color: rgba(80, 24, 24, 0.62);
     padding: 10px;
     font-family: factoria, serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    color: #C3A1A1;
+    font-weight: 500;
+    font-size: 24px;
+    color: rgb(241, 220, 191);
     text-align: center;
+    letter-spacing: 0.5px;
 }
 
-.text {
+/* .text {
     position: relative;
     top: -130px;
     left: 50px;
     font-family: factoria, serif;
     font-style: normal;
     font-weight: 200;
-}
+} */
 
 .big {
     width: 100%;
@@ -76,17 +77,37 @@ h2 {
 }
 
 .bg-img {
-    position: relative;
-    background-color: #e2e2e215;
-    animation: mymove 5s infinite;
-    background-image: url("../uuu.jpg");
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    /* background-color: #e2e2e215; */
+
+    /* background-image: url("../uuu\ 2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    background-blend-mode: overlay;
+    background-blend-mode: overlay; */
+    opacity: 0.5;
 }
 
-@keyframes mymove {
+.spinningIMG {
+    animation: rotation 100s infinite linear;
+}
+
+@keyframes rotation {
+    0% {
+        -webkit-transform: scale(3) rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: scale(3) rotate(359deg);
+    }
+}
+
+/* @keyframes mymove {
     0% {
         background-color: rgba(221, 198, 67, 0.26);
     }
@@ -98,7 +119,7 @@ h2 {
     100% {
         background-color: rgba(221, 198, 67, 0.26);
     }
-}
+} */
 
 .img-box {
     width: 140px;
@@ -111,10 +132,12 @@ h2 {
     /* background-image: url("../888/1.jpg"); */
     background-size: cover;
     background-repeat: no-repeat;
+
 }
 
 .posR {
     position: relative;
+    cursor: pointer;
 }
 
 .grid-item:hover .gridIMG0 {
@@ -183,3 +206,49 @@ h2 {
     height: 45px;
     background-color: blue;
 } */
+
+.textcontainer2 {
+    padding: 5em;
+    padding-right: 55vw;
+    line-height: 1.8em;
+    letter-spacing: .01em;
+    position: relative;
+    font-family: factoria, serif;
+    font-style: small;
+    font-weight: 100;
+    font-size: 0.9em;
+}
+
+.Game {
+    position: fixed;
+    left: -600px;
+    top: 0px;
+    background: rgba(80, 24, 24, 0.62);
+    color: rgb(241, 220, 191);
+    width: 23vw;
+    height: 100vh;
+    overflow: scroll;
+    transition: 200ms linear all;
+    font-family: factoria, serif;
+    font-style: normal;
+    font-size: 0.9em;
+    opacity: 0;
+    letter-spacing: 0.5px;
+}
+
+.Description {
+    padding: 2em;
+    width: 18vw;
+    height: 80vh;
+    position: absolute;
+    left: -300px;
+    top: 0;
+    transition: 400ms linear all;
+}
+
+
+
+.appear {
+    left: 0;
+    opacity: 1;
+}
