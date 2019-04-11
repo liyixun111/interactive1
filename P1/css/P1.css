@@ -21,8 +21,9 @@ h2 {
 
 .container1 {
     position: relative;
-    top: 100%;
-    left: 25%;
+    /* top: 100%;
+    left: 25%; */
+    margin: auto;
     width: 700px;
     background-color: rgba(80, 24, 24, 0.62);
     padding: 10px;
