@@ -1,0 +1,574 @@
+body {
+    margin: 0;
+}
+
+.letter div {
+    border-radius: 20px;
+    border: 0.1px solid black;
+    /* background: rgb(105, 3, 3); */
+    /* background: rgb(59, 59, 59); */
+    transition: 400ms background;
+}
+
+.black {
+    background: rgb(59, 59, 59);
+}
+
+.matchbg {
+    width: 900px;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    margin-left: -450px;
+}
+
+.barcontainer {
+    /* position: absolute;
+    top: 130px;
+    left: 512px; */
+    /* position: relative;
+    left: -20px;
+    top: 30px;
+    margin-left: 50%; */
+    position: absolute;
+    top: 130px;
+    left: 366px;
+    display: grid;
+    grid-template-columns: repeat(9, 20px);
+    grid-template-rows: repeat(10, 13px);
+    grid-gap: 10px 13px;
+}
+
+
+/* .bar {
+    position: absolute;
+    background: black;
+    width: 20px;
+    height: 13px;
+    top: 175px;
+    margin-left: 403px;
+}
+
+.bar2 {
+    position: absolute;
+    background: black;
+    width: 20px;
+    height: 13px;
+    top: 153px;
+    margin-left: 438px;
+} */
+
+
+
+.bg-img {
+    background-image: url("../7.jpg");
+    background-repeat: no-repeat;
+    height: 3400px;
+    width: 900px;
+    background-size: cover;
+    position: absolute;
+    left: 50%;
+    margin-left: -450px;
+
+}
+
+.letter-container {
+    position: absolute;
+    width: 640px;
+    left: 50%;
+    top: 435px;
+    margin-left: -400px;
+}
+
+.letter#a {
+    position: relative;
+    margin: 8px;
+    display: grid;
+    /* margin-top: 92px; */
+    float: left;
+    grid-template-columns: repeat(9, 8px);
+    grid-template-rows: repeat(25, 8px);
+    grid-gap: 4px 4px;
+}
+
+.letter div.empty {
+    background: transparent;
+}
+
+.letter#b {
+    position: relative;
+    margin: 8px;
+    display: grid;
+    float: left;
+    grid-template-columns: repeat(9, 8px);
+    grid-template-rows: repeat(25, 8px);
+    grid-gap: 4px 4px;
+}
+
+.letter#c {
+    position: relative;
+    margin: 8px;
+    display: grid;
+    /* margin-top: 92px; */
+    float: left;
+    grid-template-columns: repeat(9, 8px);
+    grid-template-rows: repeat(25, 8px);
+    grid-gap: 4px 4px;
+}
+
+.letter#d {
+    position: relative;
+    margin: 8px;
+    display: grid;
+    float: left;
+    grid-template-columns: repeat(9, 8px);
+    grid-template-rows: repeat(25, 8px);
+    grid-gap: 4px 4px;
+}
+
+.letter#e {
+    position: relative;
+    margin: 8px;
+    display: grid;
+    /* margin-top: 92px; */
+    float: left;
+    grid-template-columns: repeat(9, 8px);
+    grid-template-rows: repeat(25, 8px);
+    grid-gap: 4px 4px;
+
+}
+
+.letter#f {
+    position: relative;
+    margin: 8px;
+    display: grid;
+    float: left;
+    grid-template-columns: repeat(9, 8px);
+    grid-template-rows: repeat(25, 8px);
+    grid-gap: 4px 4px;
+}
+
+.letter#g {
+    position: relative;
+    margin: 8px;
+    display: grid;
+    float: left;
+    grid-template-columns: repeat(9, 8px);
+    grid-template-rows: repeat(25, 8px);
+    grid-gap: 4px 4px;
+}
+
+.letter#h {
+    position: relative;
+    margin: 8px;
+    display: grid;
+    float: left;
+    grid-template-columns: repeat(9, 8px);
+    grid-template-rows: repeat(25, 8px);
+    grid-gap: 4px 4px;
+}
+
+.letter#i {
+    position: relative;
+    margin: 8px;
+    display: grid;
+    float: left;
+    grid-template-columns: repeat(9, 8px);
+    grid-template-rows: repeat(25, 8px);
+    grid-gap: 4px 4px;
+}
+
+.letter#j {
+    position: relative;
+    margin: 8px;
+    display: grid;
+    float: left;
+    grid-template-columns: repeat(9, 8px);
+    grid-template-rows: repeat(25, 8px);
+    grid-gap: 4px 4px;
+}
+
+.letter#k {
+    position: relative;
+    margin: 8px;
+    display: grid;
+    float: left;
+    grid-template-columns: repeat(9, 8px);
+    grid-template-rows: repeat(25, 8px);
+    grid-gap: 4px 4px;
+}
+
+.letter#l {
+    position: relative;
+    margin: 8px;
+    display: grid;
+    float: left;
+    grid-template-columns: repeat(9, 8px);
+    grid-template-rows: repeat(25, 8px);
+    grid-gap: 4px 4px;
+}
+
+.letter#m {
+    position: relative;
+    margin: 8px;
+    display: grid;
+    float: left;
+    grid-template-columns: repeat(9, 8px);
+    grid-template-rows: repeat(25, 8px);
+    grid-gap: 4px 4px;
+}
+
+.letter#n {
+    position: relative;
+    margin: 8px;
+    display: grid;
+    float: left;
+    grid-template-columns: repeat(9, 8px);
+    grid-template-rows: repeat(25, 8px);
+    grid-gap: 4px 4px;
+}
+
+.letter#o {
+    position: relative;
+    margin: 8px;
+    display: grid;
+    float: left;
+    grid-template-columns: repeat(9, 8px);
+    grid-template-rows: repeat(25, 8px);
+    grid-gap: 4px 4px;
+}
+
+.letter#p {
+    position: relative;
+    margin: 8px;
+    display: grid;
+    float: left;
+    grid-template-columns: repeat(9, 8px);
+    grid-template-rows: repeat(25, 8px);
+    grid-gap: 4px 4px;
+}
+
+.letter#q {
+    position: relative;
+    margin: 8px;
+    display: grid;
+    float: left;
+    grid-template-columns: repeat(9, 8px);
+    grid-template-rows: repeat(25, 8px);
+    grid-gap: 4px 4px;
+}
+
+.letter#r {
+    position: relative;
+    margin: 8px;
+    display: grid;
+    float: left;
+    grid-template-columns: repeat(9, 8px);
+    grid-template-rows: repeat(25, 8px);
+    grid-gap: 4px 4px;
+}
+
+.letter#s {
+    position: relative;
+    margin: 8px;
+    display: grid;
+    float: left;
+    grid-template-columns: repeat(9, 8px);
+    grid-template-rows: repeat(25, 8px);
+    grid-gap: 4px 4px;
+}
+
+.letter#t {
+    position: relative;
+    margin: 8px;
+    display: grid;
+    float: left;
+    grid-template-columns: repeat(9, 8px);
+    grid-template-rows: repeat(25, 8px);
+    grid-gap: 4px 4px;
+}
+
+.letter#u {
+    position: relative;
+    margin: 8px;
+    display: grid;
+    float: left;
+    grid-template-columns: repeat(9, 8px);
+    grid-template-rows: repeat(25, 8px);
+    grid-gap: 4px 4px;
+}
+
+.letter#v {
+    position: relative;
+    margin: 8px;
+    display: grid;
+    float: left;
+    grid-template-columns: repeat(9, 8px);
+    grid-template-rows: repeat(25, 8px);
+    grid-gap: 4px 4px;
+}
+
+.letter#w {
+    position: relative;
+    margin: 8px;
+    display: grid;
+    float: left;
+    grid-template-columns: repeat(9, 8px);
+    grid-template-rows: repeat(25, 8px);
+    grid-gap: 4px 4px;
+}
+
+.letter#x {
+    position: relative;
+    margin: 8px;
+    display: grid;
+    float: left;
+    grid-template-columns: repeat(9, 8px);
+    grid-template-rows: repeat(25, 8px);
+    grid-gap: 4px 4px;
+}
+
+.letter#y {
+    position: relative;
+    margin: 8px;
+    display: grid;
+    float: left;
+    grid-template-columns: repeat(9, 8px);
+    grid-template-rows: repeat(25, 8px);
+    grid-gap: 4px 4px;
+}
+
+.letter#z {
+    position: relative;
+    margin: 8px;
+    display: grid;
+    float: left;
+    grid-template-columns: repeat(9, 8px);
+    grid-template-rows: repeat(25, 8px);
+    grid-gap: 4px 4px;
+}
+
+.letter#number0 {
+    position: relative;
+    margin: 8px;
+    display: grid;
+    float: left;
+    grid-template-columns: repeat(9, 8px);
+    grid-template-rows: repeat(25, 8px);
+    grid-gap: 4px 4px;
+}
+
+.letter#number1 {
+    position: relative;
+    margin: 8px;
+    display: grid;
+    float: left;
+    grid-template-columns: repeat(9, 8px);
+    grid-template-rows: repeat(25, 8px);
+    grid-gap: 4px 4px;
+}
+
+.letter#number2 {
+    position: relative;
+    margin: 8px;
+    display: grid;
+    float: left;
+    grid-template-columns: repeat(9, 8px);
+    grid-template-rows: repeat(25, 8px);
+    grid-gap: 4px 4px;
+}
+
+.letter#number3 {
+    position: relative;
+    margin: 8px;
+    display: grid;
+    float: left;
+    grid-template-columns: repeat(9, 8px);
+    grid-template-rows: repeat(25, 8px);
+    grid-gap: 4px 4px;
+}
+
+.letter#number4 {
+    position: relative;
+    margin: 8px;
+    display: grid;
+    float: left;
+    grid-template-columns: repeat(9, 8px);
+    grid-template-rows: repeat(25, 8px);
+    grid-gap: 4px 4px;
+}
+
+.letter#number5 {
+    position: relative;
+    margin: 8px;
+    display: grid;
+    float: left;
+    grid-template-columns: repeat(9, 8px);
+    grid-template-rows: repeat(25, 8px);
+    grid-gap: 4px 4px;
+}
+
+.letter#number6 {
+    position: relative;
+    margin: 8px;
+    display: grid;
+    float: left;
+    grid-template-columns: repeat(9, 8px);
+    grid-template-rows: repeat(25, 8px);
+    grid-gap: 4px 4px;
+}
+
+.letter#number7 {
+    position: relative;
+    margin: 8px;
+    display: grid;
+    float: left;
+    grid-template-columns: repeat(9, 8px);
+    grid-template-rows: repeat(25, 8px);
+    grid-gap: 4px 4px;
+}
+
+.letter#number8 {
+    position: relative;
+    margin: 8px;
+    display: grid;
+    float: left;
+    grid-template-columns: repeat(9, 8px);
+    grid-template-rows: repeat(25, 8px);
+    grid-gap: 4px 4px;
+}
+
+.letter#number9 {
+    position: relative;
+    margin: 8px;
+    display: grid;
+    float: left;
+    grid-template-columns: repeat(9, 8px);
+    grid-template-rows: repeat(25, 8px);
+    grid-gap: 4px 4px;
+}
+
+.letter#question {
+    position: relative;
+    margin: 8px;
+    display: grid;
+    float: left;
+    grid-template-columns: repeat(9, 8px);
+    grid-template-rows: repeat(25, 8px);
+    grid-gap: 4px 4px;
+}
+
+.letter#exclamation {
+    position: relative;
+    margin: 8px;
+    display: grid;
+    float: left;
+    grid-template-columns: repeat(9, 8px);
+    grid-template-rows: repeat(25, 8px);
+    grid-gap: 4px 4px;
+}
+
+.letter#quotation {
+    position: relative;
+    margin: 8px;
+    display: grid;
+    float: left;
+    grid-template-columns: repeat(9, 8px);
+    grid-template-rows: repeat(25, 8px);
+    grid-gap: 4px 4px;
+}
+
+.letter#cp {
+    position: relative;
+    margin: 8px;
+    display: grid;
+    float: left;
+    grid-template-columns: repeat(9, 8px);
+    grid-template-rows: repeat(25, 8px);
+    grid-gap: 4px 4px;
+}
+
+.letterb {
+    position: absolute;
+    left: 135px;
+    top: 50px;
+    margin: 4px;
+    display: grid;
+    grid-template-columns: repeat(9, 3px);
+    grid-template-rows: repeat(18, 3px);
+}
+
+.lettera {
+    position: absolute;
+    left: 170px;
+    top: 71px;
+    margin: 4px;
+    display: grid;
+    grid-template-columns: repeat(9, 3px);
+    grid-template-rows: repeat(11, 3px);
+}
+
+.letterd {
+    position: absolute;
+    left: 205px;
+    top: 50px;
+    margin: 4px;
+    display: grid;
+    grid-template-columns: repeat(9, 3px);
+    grid-template-rows: repeat(18, 3px);
+}
+
+.letterg {
+    position: absolute;
+    left: 120px;
+    top: 130px;
+    margin: 4px;
+    display: grid;
+    grid-template-columns: repeat(9, 3px);
+    grid-template-rows: repeat(18, 3px);
+}
+
+.letterr {
+    position: absolute;
+    left: 150px;
+    top: 133px;
+    margin: 4px;
+    display: grid;
+    grid-template-columns: repeat(9, 3px);
+    grid-template-rows: repeat(18, 3px);
+}
+
+.lettera1 {
+    position: absolute;
+    left: 180px;
+    top: 133px;
+    margin: 4px;
+    display: grid;
+    grid-template-columns: repeat(9, 3px);
+    grid-template-rows: repeat(18, 3px);
+}
+
+.letterd1 {
+    position: absolute;
+    left: 210px;
+    top: 112px;
+    margin: 4px;
+    display: grid;
+    grid-template-columns: repeat(9, 3px);
+    grid-template-rows: repeat(18, 3px);
+}
+
+.lettere {
+    position: absolute;
+    left: 240px;
+    top: 133px;
+    margin: 4px;
+    display: grid;
+    grid-template-columns: repeat(9, 3px);
+    grid-template-rows: repeat(18, 3px);
+}
+
+/* .dot {
+    border-radius: 0.2px;
+    background: black;
+} */
