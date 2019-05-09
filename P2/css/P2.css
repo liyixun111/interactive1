@@ -573,7 +573,7 @@ body {
     background: black;
 } */
 
-/* .textcontainer {
+.textcontainer {
     position: relative;
     margin: auto;
     top: 3045px;
@@ -586,9 +586,9 @@ body {
     color: black;
     letter-spacing: 0.2px;
     line-height: 1.45;
-} */
+}
 
-.textcontainer1 {
+/* .textcontainer1 {
     position: relative;
     margin: auto;
     top: 3045px;
@@ -601,4 +601,4 @@ body {
     color: black;
     letter-spacing: 0.2px;
     line-height: 1.45;
-}
+} */
